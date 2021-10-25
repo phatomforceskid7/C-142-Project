@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, request
 
-from storage import all_articles, liked_articles, not_liked_articles
-from demographic_filtering import output
-from content_filtering import get_recommendations
+from store import all_articles, liked_articles, not_liked_articles
+from demo_fil import output
+from cont_fil import get_recommendations
 
 app = Flask(__name__)
 
